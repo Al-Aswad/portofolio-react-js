@@ -9,12 +9,16 @@ import {
     CTA,
     Footer,
 } from "./containers";
+import { Navbar } from "./components";
 import "./App.css";
 
 const App = () => {
     return (
         <div className="App">
-            <Header />
+            <div className="gradient_bg">
+                <Navbar />
+                <Header />
+            </div>
             <About />
             <Services />
             <Experience />
