@@ -80,3 +80,37 @@
     right: 4rem;
   }
 }
+@media screen and (max-width: 768px) {
+  .header__container-content {
+    margin-left: 2rem;
+  }
+  .header__container-content-container h1 {
+    font-size: 36px;
+  }
+
+  .header__container-content-container p {
+    max-width: 70%;
+    letter-spacing: -0.04em;
+    font-size: 14px;
+  }
+  .header__container-content-container button {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .header__container-content-container h1 {
+    font-size: 30px;
+  }
+
+  .header__container-content-container p {
+    max-width: 100%;
+    letter-spacing: -0.04em;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section__padding {
+    padding: 1rem 2rem important!;
+  }
+}
