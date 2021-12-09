@@ -21,14 +21,16 @@ const Navbar = () => {
     <div className="navbar__container ">
       <div className="navbar__container-links">
         <div className="navbar__container-logo">
-          <h1>Passoloran</h1>
+          <h1 className="gradient__text">Passoloran</h1>
         </div>
         <div className="navbar__container-links_container">
           <Menu />
         </div>
       </div>
       <div className="navbar__conatiner-link-contact">
-        <button type="button">Contact Us</button>
+        <button type="button" className="primary">
+          Contact Us
+        </button>
       </div>
       <div className="navbar__container-menu">
         {toggleMenu ? (

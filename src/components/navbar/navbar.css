@@ -21,14 +21,6 @@
   color: #fff;
 }
 
-.navbar__conatiner-link-contact button {
-  padding: 0.7rem 1rem;
-  background: var(--color-scondary);
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-}
-
 .navbar__conatiner-link-contact {
   display: flex;
   align-items: center;
