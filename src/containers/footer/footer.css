@@ -1,0 +1,22 @@
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  background: var(--color-footer);
+  padding-top: 4rem;
+}
+.footer__logo {
+  margin-bottom: 1rem;
+}
+.footer__sosial {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__sosial a {
+  margin: 0 1rem;
+}
+.footer__container p {
+  margin: 1rem;
+}

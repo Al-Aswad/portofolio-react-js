@@ -5,7 +5,7 @@ import "./services.css";
 
 const Services = () => {
   return (
-    <div className="service__container section__padding">
+    <div className="service__container section__padding" id="service">
       <div className="service__container__heading">
         <Heading title="Service" subTitle="We can help you for" />
       </div>

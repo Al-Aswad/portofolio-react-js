@@ -5,7 +5,7 @@ import "./project.css";
 
 const Project = () => {
   return (
-    <div className="project__container section__padding">
+    <div className="project__container section__padding" id="project">
       <Heading title="Project" subTitle="Latest Project" />
       <div className="project__container-content__container">
         <div className="project__container-content">

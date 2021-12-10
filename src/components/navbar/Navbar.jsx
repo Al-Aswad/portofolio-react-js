@@ -6,11 +6,11 @@ import "./navbar.css";
 
 const Menu = () => (
   <>
-    <a href="#">Home</a>
-    <a href="#">About Us</a>
-    <a href="#">Service</a>
-    <a href="#">Why Us</a>
-    <a href="#">Project</a>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#service">Service</a>
+    {/* <a href="#why">Why Us</a> */}
+    <a href="#project">Project</a>
   </>
 );
 
@@ -18,7 +18,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="navbar__container ">
+    <div className="navbar__container" id="home">
       <div className="navbar__container-links">
         <div className="navbar__container-logo">
           <h1 className="gradient__text">Passoloran</h1>
