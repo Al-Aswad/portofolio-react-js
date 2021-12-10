@@ -1,0 +1,40 @@
+.about__container {
+  display: flex;
+  justify-content: center;
+}
+
+.about__container-left {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+.about__container-left img {
+  width: 375px;
+}
+.about__container-right {
+  padding: 0 2rem;
+}
+
+.about__container-right__description {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 16px;
+}
+.about__container-right__skils-container {
+  margin-top: 2rem;
+}
+.about__container-right__skils-container-skill-title {
+  display: flex;
+  justify-content: space-between;
+
+  color: #fff;
+}
+.about__container-right__skils-container-skill-title h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.about__container-right__skils-container-skill progress {
+  width: -webkit-fill-available;
+
+  color: #fff;
+}
