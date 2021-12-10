@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "../../components/heading/Heading";
 
 import People from "../../assets/img/people.png";
+import Progress from "../../components/progress/Progress";
 import "./about.css";
 
 const About = () => {
@@ -21,13 +22,14 @@ const About = () => {
           </p>
         </div>
         <div className="about__container-right__skils-container">
-          <div className="about__container-right__skils-container-skill">
-            <div className="about__container-right__skils-container-skill-title">
-              <h4>HTML</h4>
-              <h4>80</h4>
-            </div>
-            <progress value="80" max="100"></progress>
-          </div>
+          {/* <Progress title="HTML" width="80" />
+          <Progress title="CSS" width="70" /> */}
+          <Progress title="Angular JS" width="60" />
+          <Progress title="React" width="40" />
+          <Progress title="Vue" width="40" />
+          <Progress title="MYSQL" width="70" />
+          <Progress title="CI" width="70" />
+          <Progress title="Larvel" width="60" />
         </div>
       </div>
     </div>
