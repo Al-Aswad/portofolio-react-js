@@ -1,0 +1,13 @@
+.project__container-content__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project__container-content {
+  color: #fff;
+  margin: 1rem;
+}
+.project__container-content p {
+  font-size: 16px;
+}
