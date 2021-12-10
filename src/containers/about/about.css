@@ -18,6 +18,9 @@
 }
 .about__container-right {
   padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
 }
 
 .about__container-right__description {
