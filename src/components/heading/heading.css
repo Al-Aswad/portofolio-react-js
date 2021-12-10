@@ -1,5 +1,7 @@
 /* #FF4820 */
-
+.heading {
+  margin-bottom: 2rem;
+}
 .heading h4 {
   font-size: 22px;
   color: #ff4820;
@@ -13,6 +15,6 @@
 .heading div {
   margin-top: 0.5rem;
   border-bottom: 5px solid #ff4820;
-  max-width: 40%;
+  max-width: 90px;
   border-radius: 5px;
 }

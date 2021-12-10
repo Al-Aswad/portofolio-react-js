@@ -14,7 +14,7 @@ const About = () => {
         </div>
       </div>
       <div className="about__container-right">
-        <Heading />
+        <Heading title="About Us" subTitle="Why we" />
         <div className="about__container-right__description">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
