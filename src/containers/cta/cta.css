@@ -1,0 +1,23 @@
+.cta__container {
+  display: flex;
+  justify-content: center;
+}
+.cta__container-content {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background: #ff4820;
+  width: 900px;
+  align-items: center;
+  border-radius: 5px;
+}
+.cta__container-content .cta-content {
+  flex: 1;
+  padding: 0 2rem;
+  color: #fff;
+}
+.cta__container-content .cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
