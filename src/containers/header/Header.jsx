@@ -5,7 +5,7 @@ import {
   AiFillFacebook,
   AiFillLinkedin,
 } from "react-icons/ai";
-import People from "../../assets/img/people.png";
+import People from "../../assets/img/ai.png";
 import "./header.css";
 
 const Header = () => {

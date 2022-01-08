@@ -1,6 +1,7 @@
 .about__container {
   display: flex;
   justify-content: center;
+  padding: 4rem 4rem;
 }
 
 .about__container-left {
