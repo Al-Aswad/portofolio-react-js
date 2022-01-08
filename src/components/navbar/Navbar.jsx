@@ -6,9 +6,8 @@ import "./navbar.css";
 
 const Menu = () => (
   <>
-    <a href="#home">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#service">Service</a>
+    {/* <a href="#home">Home</a> */}
+    <a href="#about">Experience</a>
     <a href="#project">Project</a>
   </>
 );
@@ -20,7 +19,7 @@ const Navbar = () => {
     <div className="navbar__container" id="home">
       <div className="navbar__container-links">
         <div className="navbar__container-logo">
-          <h1 className="gradient__text">Passoloran</h1>
+          <h1 className="gradient__text">Aswad</h1>
         </div>
         <div className="navbar__container-links_container">
           <Menu />
@@ -28,7 +27,7 @@ const Navbar = () => {
       </div>
       <div className="navbar__conatiner-link-contact">
         <button type="button" className="primary">
-          Contact Us
+          Say Hello
         </button>
       </div>
       <div className="navbar__container-menu">
@@ -51,7 +50,7 @@ const Navbar = () => {
               <Menu />
             </div>
             <div className="navbar__container-menu-contact">
-              <button type="button">Contact Us</button>
+              <button type="button">Say Hello</button>
             </div>
           </div>
         )}

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer__container">
       <div className="footer__logo">
-        <h2>Passoloran</h2>
+        <h2>Aswad</h2>
       </div>
       <div className="footer__sosial">
         <a href="#">Github</a>
@@ -15,7 +15,7 @@ const Footer = () => {
         <a href="#">Instagram</a>
       </div>
       <p>hajaraswadkom@gmail.com</p>
-      <p>@ 2021 Passoloran. All right reserved</p>
+      <p class="copyright">@ 2021 Passoloran. All right reserved</p>
     </div>
   );
 };

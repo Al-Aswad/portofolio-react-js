@@ -8,13 +8,10 @@ const CTA = () => {
       <div className="cta__container-content">
         <div className="cta-content">
           <h2>Lets Work Together</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequuntur tempora autem quam alias! Cumque, omnis.
-          </p>
+          <p>tell me what's your problem we solve it together</p>
         </div>
         <div className="cta-button">
-          <button type="button">Contact Us</button>
+          <button type="button">Say Hello</button>
         </div>
       </div>
     </div>

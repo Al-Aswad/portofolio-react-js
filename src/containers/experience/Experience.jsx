@@ -16,13 +16,13 @@ const Experience = () => {
             <div class="cd-timeline-content">
               <h2>Web Developer</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
-                optio, dolorum provident rerum.
+                The beginning of my career as a web developer started at Tauhid
+                Production
               </p>
               <span class="cd-date">
                 <h5>Web Developer</h5>
                 <h4>Tauhid Production</h4>
-                <p>2020 - 2020</p>
+                <p>2019 - 2019</p>
               </span>
             </div>
           </div>
@@ -30,11 +30,15 @@ const Experience = () => {
             <div class="cd-timeline-img cd-movie">2</div>
             <div class="cd-timeline-content">
               <h2>Web Developer</h2>
-              <p>This is the content of the last section</p>
+              <p>
+                The next most enjoyable journey continued in the logistics
+                company, here I learned a lot about the world of work and
+                programming
+              </p>
               <span class="cd-date">
                 <h5>Web Developer</h5>
                 <h4>IDExpress(SULSELBATARA)</h4>
-                <p>2020 - 2020</p>
+                <p>2019 - 2020</p>
               </span>
             </div>
           </div>
@@ -42,11 +46,14 @@ const Experience = () => {
             <div class="cd-timeline-img cd-movie">3</div>
             <div class="cd-timeline-content">
               <h2>Web Developer</h2>
-              <p>This is the content of the last section</p>
+              <p>
+                With high motivation to learn, I leave my comfort zone to seek
+                new challenges and learn new things at PT Galesong Group
+              </p>
               <span class="cd-date">
                 <h5>Web Developer</h5>
                 <h4>PT SINAR GALESONG</h4>
-                <p>2020 - 2020</p>
+                <p>2020 - 2022</p>
               </span>
             </div>
           </div>

@@ -194,6 +194,10 @@
   line-height: 1.6;
 }
 
+.cd-timeline-content .cd-date p {
+  color: var(--color-text);
+}
+
 .cd-timeline-content::before {
   content: "";
   position: absolute;

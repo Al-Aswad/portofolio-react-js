@@ -9,6 +9,8 @@
 }
 .footer__logo {
   margin-bottom: 1rem;
+  /* background: #fff; */
+  color: #fff;
 }
 .footer__sosial {
   display: flex;
@@ -16,7 +18,12 @@
 }
 .footer__sosial a {
   margin: 0 1rem;
+  color: #fff;
 }
 .footer__container p {
   margin: 1rem;
+  color: var(--color-text);
+}
+.footer__container .copyright {
+  color: rgba(184, 184, 184, 0.281);
 }
