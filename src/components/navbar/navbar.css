@@ -26,6 +26,11 @@
   display: flex;
   align-items: center;
 }
+.navbar__conatiner-link-contact a {
+  padding: 0.7rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
 .navbar__container-menu {
   display: none;

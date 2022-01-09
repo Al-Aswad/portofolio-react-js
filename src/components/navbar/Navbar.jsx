@@ -26,9 +26,14 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar__conatiner-link-contact">
-        <button type="button" className="primary">
+        <a
+          target="_blank"
+          href="https://wa.link/wcukrz"
+          type="button"
+          className="primary"
+        >
           Say Hello
-        </button>
+        </a>
       </div>
       <div className="navbar__container-menu">
         {toggleMenu ? (

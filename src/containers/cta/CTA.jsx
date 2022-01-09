@@ -11,7 +11,14 @@ const CTA = () => {
           <p>tell me what's your problem we solve it together</p>
         </div>
         <div className="cta-button">
-          <button type="button">Say Hello</button>
+          <a
+            target="_blank"
+            href="https://wa.link/wcukrz"
+            type="button"
+            // className="primary"
+          >
+            Say Hello
+          </a>
         </div>
       </div>
     </div>

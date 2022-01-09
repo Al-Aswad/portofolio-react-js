@@ -21,3 +21,10 @@
   justify-content: center;
   align-items: center;
 }
+.cta-button a {
+  padding: 0.7rem;
+  background: var(--color-blog);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+}
