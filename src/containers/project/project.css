@@ -1,6 +1,6 @@
 .project__container-content__container {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -16,4 +16,15 @@
 }
 .project__desc {
   padding: 2rem 2rem;
+}
+
+@media only screen and (min-width: 375px) {
+  .project__container.section__padding {
+    padding: 2rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .project__container.section__padding {
+    padding: 4rem;
+  }
 }
